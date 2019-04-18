@@ -1,0 +1,7 @@
+*.log
+/_site
+/lib
+/node_modules
+packages/*/lib
+/tmp
+npm-debug.log
