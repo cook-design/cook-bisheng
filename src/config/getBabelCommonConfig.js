@@ -28,7 +28,7 @@ export default function babel() {
       resolve('@babel/plugin-proposal-object-rest-spread'),
       [
         resolve('@babel/plugin-proposal-decorators'),
-        { decoratorsBeforeExport: true },
+        { legacy: true },
       ],
       resolve('@babel/plugin-proposal-class-properties'),
       resolve('@babel/plugin-proposal-export-default-from'),
